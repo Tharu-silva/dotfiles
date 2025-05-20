@@ -15,6 +15,12 @@ ZSH_THEME="jonathan"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+# Aliases
+alias python3="/opt/homebrew/bin/python3"
+alias pip3="/opt/homebrew/bin/pip3"
+alias python=python3
+alias pip=pip3
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
