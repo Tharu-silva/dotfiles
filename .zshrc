@@ -21,6 +21,9 @@ alias pip3="/opt/homebrew/bin/pip3"
 alias python=python3
 alias pip=pip3
 
+alias gcc="gcc-14"
+alias g++="g++-14"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
