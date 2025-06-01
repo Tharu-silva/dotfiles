@@ -18,8 +18,8 @@ ZSH_THEME="jonathan"
 # Aliases
 alias python3="/opt/homebrew/bin/python3"
 alias pip3="/opt/homebrew/bin/pip3"
-alias python=python3
-alias pip=pip3
+# alias python=python3
+# alias pip=pip3
 
 alias gcc="gcc-14"
 alias g++="g++-14"
@@ -110,3 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
